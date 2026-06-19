@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+      background-color: rgb(141, 141, 228);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+
+    img{
+        width:50px;
+        height:50px;
+    }
+
+    li{
+       display: inline;
+       padding:50px;
+    }
+
+    a{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 25px;
+    }
+
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    margin-bottom: 50px;
+
+}
+
+
+#home img{
+    width:350px;
+    height:450px;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+
+#home .para{
+    padding: 50px;
+    width:600px;
+    margin-top: 60px;
+
+    h1{
+        color: rgb(59, 21, 39);
+        font-weight:bolder;
+        padding-bottom:30px;
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    p{
+        font-size: 22px;
+        font-family: sans-serif;
+        letter-spacing: 0.7px;
+        padding-bottom:30px;
+        text-align: justify;
+    }
+
+    button{ 
+        background-color: rgb(198, 241, 241);
+        border-radius: 10px;
+        border:1px solid rgb(198, 241, 241);
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    button:hover{
+        background-color: rgb(11, 11, 155);
+        color: aliceblue;
+    }
+    .about{
+        margin-right: 60px;
+    }
+}
+
+#about{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    
+     
+    h1{
+        color: rgb(59, 21, 39);
+        font-weight:bolder;
+        padding-bottom:20px;
+        font-size: 45px;
+        margin-top: 80px;
+    }
+
+    p{
+        font-size: 22px;
+        font-family: sans-serif;
+        text-align: justify;
+        line-height: 1.8;
+        word-spacing: 2px;
+    }
+
+    .para{
+        width:800px;
+        height: 360px;
+        border:1px solid grey;
+        border-radius: 10px;
+        background-color: aliceblue;
+        color: black;
+        padding:30px;
+        overflow-y:auto ;
+    }
+}
+#books,
+#genres,
+#contact{
+    padding-top: 80px;
+}
+#books{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+    h1{
+       color: rgb(59, 21, 39);
+        font-weight:bolder;
+        padding-bottom:30px;
+        font-size: 45px; 
+        margin-top: 6px;
+    }
+
+    .main_box{
+        width:900px;
+        height: 400px;
+        background-color: aliceblue;
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        gap:20px; 
+        overflow-x:auto;
+
+        img{
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+       }
+
+       img:hover{
+        transform: scale(1.05);
+       }
+
+    }
+}
+
+
+#genres{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+    h1{
+       color: rgb(59, 21, 39);
+        font-weight:bolder;
+        padding-bottom:20px;
+        font-size: 45px; 
+    }
+
+    .gener_box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    
+
+    img{
+        width:200px;
+        height:200px;
+        border-radius: 10px;
+    }
+
+    .g_box{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction:column ;
+        width:250px;
+        height:400px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        padding: 10px;
+
+         p{
+        text-align: justify;
+        margin: 10px;
+        }
+        button{ 
+            background-color: rgb(198, 241, 241);
+            border-radius: 10px;
+            border:1px solid rgb(198, 241, 241);
+            padding: 7px;
+            font-size: 15px;
+            font-weight:bold;
+        }
+        button:hover{
+            background-color: rgb(11, 11, 155);
+            color: aliceblue;
+        }
+
+    }
+    }
+    .g_box:hover{
+        transform: scale(1.06);
+       }
+
+    
+}
+
+#contact{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+.con_main{
+    display: flex;
+    background-color: aliceblue;
+    width:1200px;
+    border-radius: 10px;
+    padding-top: 20px;
+  
+}
+.details{
+    width:600px;
+    height:300px;
+    padding: 20px;
+    margin-left: 50px;
+
+     h1{
+        color: rgb(59, 21, 39);
+        font-weight:bolder;
+        padding-bottom:20px;
+        font-size: 45px; 
+    }
+
+    p{
+        font-size: 20px;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        padding-bottom:30px;
+        text-align: justify;
+    }
+
+    .fa-solid,.fa-brands{
+        color: blue;
+        font-size: 30px;
+    }
+
+    .fa-envelope-open,.fa-brands{
+        margin-left: 30px;
+   }
+
+   .fa-solid:hover{
+    transform: scale(1.5);
+   }
+   .fa-brands:hover{
+    transform: scale(1.5);
+   }
+}
+.d_form{
+    width:500px;
+    height:300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:column ;
+    padding: 10px;
+    
+
+    input,textarea{
+        width:250px;
+        padding: 10px;
+        border: 1px solid rgb(198, 241, 241);
+        border-radius: 10px;
+    }
+
+
+    button{ 
+    
+    border-radius: 10px;
+    border:1px solid rgb(198, 241, 241);
+    padding: 10px;
+    font-size: 25px;
+    font-weight:bold;
+    width: 200px;
+    background-color: rgb(11, 11, 155);
+    color: aliceblue;
+    }
+    button:hover{
+        background-color: rgb(198, 241, 241);
+        color: black;
+    }
+
+    }
+}
+.footer{
+    background-color: darkblue;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .copyright{
+        margin-right: 20px;
+    }
+}
